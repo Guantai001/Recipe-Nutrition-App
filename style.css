@@ -1,0 +1,32 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar-container{
+    background-color: #FFDCA9;
+    height: 110px;
+ 
+}
+
+#nav-bar-logo img{
+    height: 120px;
+    width: 150px;
+    
+}
+ 
+#nav-bar-links{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-bar ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-right: 1px solid #000000;
+}
