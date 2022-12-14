@@ -16,7 +16,7 @@ fetch('https://edamam-recipe-search.p.rapidapi.com/search?q=chicken', options)
 	.then(response => response.json())
 	.then(data => {
         renderFood(data);
-        foodDetails(data[0]);
+        foodDetails(data.hits[0].recipe);
     })
 	.catch(err => console.error(err));
 };
@@ -46,7 +46,7 @@ function foodDetails(food) {
         <img src="${food.image}" alt="${food.label}">
         <h3>${food.label}</h3>
         <p>${food.source}</p>
-        <p>${food.ingredientLines}</p>
+        <p>Ingridients:${food.ingredientLines}</p>
         <p>Calories:${food.calories}</p>
         <p>Health Labels:${food.healthLabels}</p>
         <p>Diet Labels:${food.dietLabels}</p>
