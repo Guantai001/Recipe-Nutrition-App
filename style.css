@@ -30,3 +30,41 @@ body{
     padding: 0 10px;
     border-right: 1px solid #000000;
 }
+
+#food-list img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#food-list li{
+    display: inline-block  ;
+    list-style-type: none;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #E8F3D6;
+    box-shadow: #FFDCA9;
+    text-align: center;
+    animation : 10px;
+    animation-name: slidein;
+}
+#food-list li:hover{
+    background-color: #FFDCA9;
+    box-shadow: #E8F3D6;
+    animation-name: slideout;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+#food-details{
+   text-align: center;
+    margin: 10px;
+}
