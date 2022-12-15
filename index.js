@@ -26,13 +26,19 @@ function renderFood(data) {
     for (let i = 0; i < data.hits.length; i++) {
         const food = data.hits[i].recipe;
         const foodItem = document.createElement('li');
-
+ 
         foodItem.innerHTML = `
             <img src="${food.image}" alt="${food.label}">
             <h3>${food.label}</h3>
             <p>${food.source}</p>
             
         `;
+        //create a onmouseover event
+        foodItem.addEventListener('mousehover', () => {
+            foodItem.style.backgroundColor = 'red';
+
+        });
+     
         foodItem.addEventListener('click', () => {
             foodDetails(food);
         });
@@ -51,8 +57,10 @@ function foodDetails(food) {
         <p>Health Labels:${food.healthLabels}</p>
         <p>Diet Labels:${food.dietLabels}</p>
         <p>Yield:${food.yield}</p>
-        <p>Time:${food.totalTime}</p>
+        <p>Time:${food.totalTime} minutes</p>
         <p>URL:${food.url}</p>
+        <p>ShareAs:${food.shareAs}</p>
+        
 
     `;
 }
