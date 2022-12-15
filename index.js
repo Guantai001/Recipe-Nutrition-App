@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
     getFood();
     foodDetails();
 });
-
+// the api key is area
 const options = {
 	method: 'GET',
 	headers: {
@@ -20,7 +20,7 @@ fetch('https://edamam-recipe-search.p.rapidapi.com/search?q=chicken', options)
     })
 	.catch(err => console.error(err));
 };
-
+// the function is to render the food
 function renderFood(data) {
     const fooodList = document.querySelector('#food-list');
     for (let i = 0; i < data.hits.length; i++) {
@@ -40,6 +40,8 @@ function renderFood(data) {
         fooodList.appendChild(foodItem);
     }
 }
+
+// the function is to render the food details
 
 function foodDetails(food) {
     const foodDetail = document.querySelector('#food-details');
