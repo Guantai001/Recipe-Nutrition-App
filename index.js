@@ -33,12 +33,7 @@ function renderFood(data) {
             <p>${food.source}</p>
             
         `;
-        //create a onmouseover event
-        foodItem.addEventListener('mousehover', () => {
-            foodItem.style.backgroundColor = 'red';
-
-        });
-     
+  
         foodItem.addEventListener('click', () => {
             foodDetails(food);
         });
