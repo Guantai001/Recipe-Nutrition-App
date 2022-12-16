@@ -6,8 +6,8 @@ The application is about food nutriation app.It is able to fetch api publicly.Th
 The lower part of the page has a feedback form where the user can give feedback on the application. The feedback is currently not being stored anywhere.It is just a form that is being displayed on the page.
 
 
-### project Api link and live link
-The Api link is https://api.edamam.com/api/food-database/v2/parser?ingr=onions&app_id= &app_key=  .The live link is https://guantai001.github.io/Recipe-Nutrition-App/
+### project live link
+The live link is hhttps://guantai001.github.io/Recipe-Nutrition-App/
 
 ### Project Setup Instruction
 1. Open Terminal {Ctrl+Alt+T}
