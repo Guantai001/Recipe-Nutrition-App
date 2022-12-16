@@ -8,3 +8,17 @@
 5. Push to the branch(git push -u origin main/master)
 6. Create a pull request
 
+### Technologies Used
+     -> HTML
+     -> CSS
+     -> JavaScript
+     -> VisualStudio Code
+
+
+### Author
+       - Guantai JohnPaul
+       - Email: jpguantai@gmail.com
+
+
+### Licence
+Licensee under [MIT-LICENSE](https://github.com/Guantai001/Recipe-Nutrition-App/blob/main/LICENSE) CopyRight (c) 2022 Guantai JohnPaul
