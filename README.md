@@ -7,7 +7,7 @@ The lower part of the page has a feedback form where the user can give feedback 
 
 
 ### projectlive link
-.The live link is https://guantai001.github.io/Recipe-Nutrition-App/
+The live link is https://guantai001.github.io/Recipe-Nutrition-App/
 
 ### Project Setup Instruction
 1. Open Terminal {Ctrl+Alt+T}
