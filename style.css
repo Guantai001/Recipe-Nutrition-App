@@ -68,7 +68,10 @@ margin-left: 20px;
     padding: 10px;
 }
 #food-details{
+    padding-top: 450px;
+    text-align: center;
         margin: 10px;
+        padding-left: 70px;
 }
 
 #footer-logo{
