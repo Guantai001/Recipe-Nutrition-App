@@ -61,7 +61,29 @@ function foodDetails(food) {
 
     const btn = document.querySelector('.btn');
     btn.addEventListener('click', () => {
-        alert('Your feedback is important to us');
+
+        const myName = document.getElementById('myName').value;
+        const myEmail = document.getElementById('myEmail').value;
+        const myMessage = document.getElementById('messo').value;
+        
+        const myFeedback = {
+            name: myName,
+            email: myEmail,
+            message: myMessage
+        };
+        console.log(myFeedback);
+        const feedbackList = document.getElementById('feedback-list');
+        const myFeedbackCard = document.createElement('li');
+
+        myFeedbackCard.innerHTML = `
+        <p>${myFeedback.name}</p>
+        <p>${myFeedback.email}</p>
+        <p>${myFeedback.message}</p>
+        `;
+        feedbackList.appendChild(myFeedbackCard);
+
+
+        
 });
 
 
