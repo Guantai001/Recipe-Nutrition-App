@@ -59,5 +59,11 @@ function foodDetails(food) {
         <p>ShareAs:${food.shareAs}</p>
     `;
 
-    
+    const btn = document.querySelector('.btn');
+    btn.addEventListener('click', () => {
+        alert('Your feedback is important to us');
+});
+
+
 }
+
