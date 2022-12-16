@@ -93,3 +93,36 @@ body{
 #contact-right{
     background-color: #FAAB78;
 }
+.copyright{
+    text-align: center;
+}
+#submit-form{
+    text-align: center;
+   float: inline-end;
+   display: grid;
+}
+form input, form textarea{
+    width: 50%;
+    border: 0;
+    background: #E8F3D6;
+    padding: 10px;
+    margin :10px ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    float: left;
+
+}
+.btn {
+    background-color: #E8F3D6;
+    width: 70px;
+    margin-left: 10px;
+}
+.contact-right-social a{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.contact-right-content h1,p{
+    margin-left: 10px;
+}

@@ -33,7 +33,7 @@ function renderFood(data) {
             <p>${food.source}</p>
             
         `;
-  
+//   add event listener to each food item
         foodItem.addEventListener('click', () => {
             foodDetails(food);
         });
@@ -57,7 +57,7 @@ function foodDetails(food) {
         <p>Time:${food.totalTime} minutes</p>
         <p>URL:${food.url}</p>
         <p>ShareAs:${food.shareAs}</p>
-        
-
     `;
+
+    
 }
