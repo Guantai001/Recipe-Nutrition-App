@@ -59,7 +59,9 @@ function foodDetails(food) {
         <p>ShareAs:${food.shareAs}</p>
     `;
 
-    const btn = document.querySelector('.btn');
+    //the aim is to get the feedback from the user
+    //it will display the feedback in the console
+    const btn = document.getElementById('btn');
     btn.addEventListener('click', () => {
 
         const myName = document.getElementById('myName').value;
@@ -81,8 +83,6 @@ function foodDetails(food) {
         <p>${myFeedback.message}</p>
         `;
         feedbackList.appendChild(myFeedbackCard);
-
-
         
 });
 

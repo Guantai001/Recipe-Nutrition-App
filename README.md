@@ -1,5 +1,10 @@
 # Recipe-Nutrition-App
 
+## Project Description 
+
+The application is about food nutriation app.It is able to fetch api publicly.The Api will display the food nutrition and the ingredients of the food.When the user clicks on the food, it will display the ingredients and the nutrition of the food.
+The lower part of the page has a feedback form where the user can give feedback on the application. The feedback is currently not being stored anywhere.It is just a form that is being displayed on the page.
+
 # SetUp Instruction
 1. clone the repository(git clone (git url)
 2. Make the appropriate changes in the files

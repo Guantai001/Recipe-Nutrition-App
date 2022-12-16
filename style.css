@@ -116,7 +116,9 @@ form input, form textarea{
     float: left;
 
 }
-.btn {
+#btn {
+   
+
     background-color: #E8F3D6;
     width: 70px;
     margin-left: 10px;
