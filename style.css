@@ -13,12 +13,15 @@ body{
  
 }
 
+
 #nav-bar-logo img{
     height: 120px;
     width: 150px;
     
 }
- 
+#my-content h3{
+margin-left: 20px;
+}
 #nav-bar-links{
     display: inline-flex;
     justify-content: flex-end;

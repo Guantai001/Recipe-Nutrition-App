@@ -10,7 +10,7 @@ const options = {
 		'X-RapidAPI-Host': 'edamam-recipe-search.p.rapidapi.com'
 	}
 };
-
+// the function is to fetch the food by arrow function
 const getFood = () => {
 fetch('https://edamam-recipe-search.p.rapidapi.com/search?q=chicken', options)
 	.then(response => response.json())
